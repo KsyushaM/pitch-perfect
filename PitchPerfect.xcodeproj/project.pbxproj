@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1112C02778B22B00DC00F2 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1112BF2778B22B00DC00F2 /* PlaySoundsViewController.swift */; };
+		4E1112C4277BC26A00DC00F2 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1112C3277BC26A00DC00F2 /* PlaySoundsViewController+Audio.swift */; };
 		4EBA7F6E27565C13007D7D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA7F6D27565C13007D7D4C /* AppDelegate.swift */; };
 		4EBA7F7027565C13007D7D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA7F6F27565C13007D7D4C /* SceneDelegate.swift */; };
-		4EBA7F7227565C13007D7D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA7F7127565C13007D7D4C /* ViewController.swift */; };
+		4EBA7F7227565C13007D7D4C /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA7F7127565C13007D7D4C /* RecordSoundsViewController.swift */; };
 		4EBA7F7527565C13007D7D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA7F7327565C13007D7D4C /* Main.storyboard */; };
 		4EBA7F7727565C14007D7D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA7F7627565C14007D7D4C /* Assets.xcassets */; };
 		4EBA7F7A27565C14007D7D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA7F7827565C14007D7D4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1112BF2778B22B00DC00F2 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		4E1112C3277BC26A00DC00F2 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		4EBA7F6A27565C13007D7D4C /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBA7F6D27565C13007D7D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBA7F6F27565C13007D7D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EBA7F7127565C13007D7D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EBA7F7127565C13007D7D4C /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		4EBA7F7427565C13007D7D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EBA7F7627565C14007D7D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EBA7F7927565C14007D7D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EBA7F7B27565C14007D7D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBA7F822756DB61007D7D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +63,13 @@
 			children = (
 				4EBA7F6D27565C13007D7D4C /* AppDelegate.swift */,
 				4EBA7F6F27565C13007D7D4C /* SceneDelegate.swift */,
-				4EBA7F7127565C13007D7D4C /* ViewController.swift */,
+				4EBA7F7127565C13007D7D4C /* RecordSoundsViewController.swift */,
 				4EBA7F7327565C13007D7D4C /* Main.storyboard */,
 				4EBA7F7627565C14007D7D4C /* Assets.xcassets */,
 				4EBA7F7827565C14007D7D4C /* LaunchScreen.storyboard */,
 				4EBA7F7B27565C14007D7D4C /* Info.plist */,
+				4E1112BF2778B22B00DC00F2 /* PlaySoundsViewController.swift */,
+				4E1112C3277BC26A00DC00F2 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -138,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBA7F7227565C13007D7D4C /* ViewController.swift in Sources */,
+				4E1112C4277BC26A00DC00F2 /* PlaySoundsViewController+Audio.swift in Sources */,
+				4EBA7F7227565C13007D7D4C /* RecordSoundsViewController.swift in Sources */,
 				4EBA7F6E27565C13007D7D4C /* AppDelegate.swift in Sources */,
+				4E1112C02778B22B00DC00F2 /* PlaySoundsViewController.swift in Sources */,
 				4EBA7F7027565C13007D7D4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4EBA7F7427565C13007D7D4C /* Base */,
+				4EBA7F822756DB61007D7D4C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -287,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SKZQZK3X6;
@@ -295,6 +306,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +317,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SKZQZK3X6;
@@ -323,6 +338,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +349,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
